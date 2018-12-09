@@ -86,7 +86,7 @@ header{
 	font-weight: 700;
 	background-color: #fff;
 	position: relative;
-	left: 440%;
+	left: 380%;
 }
 
 .log-in:hover, .log-in:focus{
@@ -106,7 +106,7 @@ header{
 	font-weight: 700;
 	background-color: #fff;
 	position: relative;
-	left: 450%;
+	left: 390%;
 }
 
 .sign-up:hover, .sign-up:focus{
