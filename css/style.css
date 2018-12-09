@@ -805,7 +805,7 @@ footer .other-link:hover, footer .other-link:focus{
 /*12.0 Back To Top Section End*/
 
 
-/*Media Query For Mobile Device 0px-550px*/
+/*Media Query For Mobile Device screen-550px*/
 @media screen and (max-width: 550px) {
 	
 	header {
@@ -1077,8 +1077,8 @@ footer .other-link:hover, footer .other-link:focus{
 }
 
 
-/*Media Query For Mobile Device 500px-990px*/
-@media (min-width: 550px) and (max-width:992px){
+/*Media Query For Tablet Device 550px-990px*/
+@media (min-width: 550px) and (max-width: 992px){
 	
 	header {
     	height: auto;
@@ -1319,9 +1319,76 @@ footer .other-link:hover, footer .other-link:focus{
 	}
 
 	.fa-angle-up{
-
 		left: 18.5%;
 	}
+}
+/*Media Query For Tablet Device landscape only 768px-1115px*/
+@media (min-device-width: 768px) and (max-device-width: 1279px) and (orientation: landscape){
 	
+	.log-in{
+		margin: 4px 10px;
+		left: 0%;
+	}
+	
+	.sign-up{
+		margin: 4px 10px;
+		left: 0%;
+	}
+	
+	.service .pricing-service{
+		padding: 22px;
+	}
+	
+	.pricing .text-overlay-one h5{
+		padding: 10px 0px 12px 38px;
+	}
+	
+	.pricing .text-overlay-two h5{
+		padding: 10px 0px 12px 38px;
+	}
+	
+	.pricing .text-overlay-three h5{
+		padding: 10px 0px 12px 38px;
+	}
+	
+	.pricing .text-overlay-one p{
+		padding: 0 20px 15px 0px;
+	}
+	
+	.pricing .text-overlay-two p{
+		padding: 0 20px 5px 0px;
+	}
+	
+	.pricing .text-overlay-three p{
+		padding: 0 20px 5px 0px;
+	}
+	
+	.back-top{
+		width: 5%;
+		bottom: 8%;
+	}
+	.fa-angle-up{
+		left: 21%;
+	}
+}
 
+/*For Mid Range Laptop*/
+@media (min-device-width: 1280px) and (max-device-width: 1439px) {
+	.log-in{
+		margin: 4px 10px;
+		left: 280%;
+	}
+	
+	.sign-up{
+		margin: 4px 10px;
+		left: 290%;
+	}
+	
+	.back-top{
+		width: 4.5%;
+		bottom: 8%;
+	}
+	.fa-angle-up{
+		left: 19.5%;
+	}
 }
