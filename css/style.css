@@ -1323,7 +1323,7 @@ footer .other-link:hover, footer .other-link:focus{
 	}
 }
 /*Media Query For Tablet Device landscape only 768px-1115px*/
-@media (min-device-width: 768px) and (max-device-width: 1279px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 1279px) and (orientation: landscape){
 	
 	.log-in{
 		margin: 4px 10px;
@@ -1373,7 +1373,7 @@ footer .other-link:hover, footer .other-link:focus{
 }
 
 /*For Mid Range Laptop*/
-@media (min-device-width: 1280px) and (max-device-width: 1439px) {
+@media (min-width: 1280px) and (max-width: 1439px) {
 	.log-in{
 		margin: 4px 10px;
 		left: 280%;
